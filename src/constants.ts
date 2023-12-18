@@ -1,0 +1,60 @@
+import {Track} from 'react-native-track-player';
+
+export const playListData: Track[] = [
+  {
+    id: 1,
+    title: 'Arjan Vailly',
+    artist: 'Manan Bhardwaj, Bhupinder Babbal',
+    album: 'ANIMAL(2023)',
+    artwork: require('./assests/artworks/arjan-vailly-animal-mp3-song-300.jpg'),
+    url: require('./assests/audio/Arjan Vailly - ANIMAL.mp3'),
+  },
+  {
+    id: 2,
+    title: 'Dheeth - Yo Yo Honey Singh',
+    artist: 'Yo Yo Honey Singh, Gill Machhrai, Rony Ajnali',
+    album: 'Honey 3.0 (2023)',
+    artwork: require('./assets/artworks/dheeth-yo-yo-honey-singh-mp3-song-300.jpg'),
+    url: require('./assets/audio/Dheeth.mp3'),
+  },
+  {
+    id: 3,
+    title: 'Cheques',
+    artist: 'Shubh',
+    album: 'Still Rollin Shubh',
+    artwork: './assets/artworks/cheques-shubh-mp3-song-300.jpg',
+    url: require('./assets/audio/Cheques.mp3'),
+  },
+  {
+    id: 4,
+    title: 'Jeda Nasha',
+    artist: 'Amar Jalal, Faridkot, Amar Jalal',
+    album: 'Equals Sessions - Episode 4',
+    artwork: './assets/artworks/jeda-nasha-mp3-song-300.jpg',
+    url: require('./assets/audio/JedaNasha.mp3'),
+  },
+  {
+    id: 5,
+    title: 'Arabic Kuthu - Halamithi Habibo',
+    artist: 'Anirudh Ravichander and Jonita Gandh',
+    album: 'Beast',
+    artwork: require('./assests/artworks/Arabic-Kuthu-Halamithi-Habibo-mp3-song-300.jpg'),
+    url: require('./assets/audio/ArabicKuthuHalamithiHabibo.mp3'),
+  },
+  {
+    id: 6,
+    title: 'Saari Duniya Jalaa Denge',
+    artist: 'Jaani, B Praak',
+    album: 'Animal (2023)',
+    artwork: './assets/artworks/saari-duniya-jalaa-denge-mp3-song-300.jpg',
+    url: require('./assets/audio/SaariDuniyaJalaaDenge.mp3'),
+  },
+  {
+    id: 7,
+    title: 'Satranga',
+    artist: 'Arijit Singh, Siddharth Garima, Shreyas Puranik',
+    album: 'Animal (2023)',
+    artwork: './assets/artworks/satranga-animal-mp3-song-300.jpg',
+    url: require('./assets/audio/Satranga.mp3'),
+  },
+];
